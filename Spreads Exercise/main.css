@@ -27,12 +27,10 @@ h2.jump {
 
 .jump span {
     display: inline-block;
+    transition: transform 1s ease;
 }
 
 .jump span:hover {
-    transform: translate(20);
-    transform: rotate(10deg);
-    transform: scale(2);
-
+    transform: rotate(10deg) scale(1.7) translateY(5px);
 }
 
