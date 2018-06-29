@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 body {
     background: rgb(85, 201, 49);
-    font-family: "Titan One", cursive;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
@@ -22,7 +23,7 @@ body {
 h2.jump {
     font-size: 35px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px hsl(180, 10%, 79%);/*rgb(197, 197, 197);*/
 }
 
 .jump span {
